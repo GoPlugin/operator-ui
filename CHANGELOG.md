@@ -1,5 +1,27 @@
 # @smartcontractkit/operator-ui
 
+## 0.8.0
+
+### Minor Changes
+
+- bd8ff94: rename fromAddress to fromAddresses in blockhashStoreSpec
+- bd8ff94: Remove the `maxGasPriceGWei` field from VRF job details page.
+- bd8ff94: Add ability to show TOML config
+
+  On the configuration screen, the user is now able to view their node's TOML config
+
+- bd8ff94: Replaced "ETH balance" with "Native token balance"
+- bd8ff94: Display the Feeds Manager navigation in the mobile navigation drawer
+
+### Patch Changes
+
+- bd8ff94: Show node type
+- bd8ff94: Fixes task run status display for unfinished tasks
+- bd8ff94: Display the name of job proposals in Feeds Manager
+- bd8ff94: Fixes infinite loop issue on Sign Out
+- bd8ff94: Fix bug preventing selection of "Rows per page" in jobs/ID/runs page
+- bd8ff94: dynamic config for legacy vs. TOML; syntax highlighting; expansion panels
+
 ## 0.7.0
 
 ### Minor Changes
