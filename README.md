@@ -7,7 +7,7 @@ This package is responsible for rendering the UI of the plugin node, which allow
 The GQL schema that lives within `GoPlugin/pluginV2` is used to generate client typings for this repo. See below for a list of options for generating these bindings, either based on a local plugin repo copy, or remotely off of github.
 
 ```sh
-# Assuming that your plugin repo lives in ../chainlink (relative to this git repo root)
+# Assuming that your plugin repo lives in ../plugin (relative to this git repo root)
 yarn setup
 
 # If you have your plugin repo in a different directory
